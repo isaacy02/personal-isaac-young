@@ -1,0 +1,20 @@
+{
+  "blog.qmd": {
+    "blog.html": "c335e4c3"
+  },
+  "blogs/index.qmd": {
+    "index.html": "2b3baaf8"
+  },
+  "articles/article_03.qmd": {
+    "article_03.html": "38972e5e"
+  },
+  "index.qmd": {
+    "index.html": "a58684d2"
+  },
+  "about.qmd": {
+    "about.html": "9eb87a78"
+  },
+  "articles/index.qmd": {
+    "index.html": "a5223f7b"
+  }
+}

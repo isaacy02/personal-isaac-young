@@ -1,0 +1,52 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Isaac Young's Warmup"
+  site-path: "/personal-isaac-young/"
+  reader-mode: true
+  repo-url: https://github.com/isaacy02/personal-isaac-young
+  repo-actions: issue
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: articles/index.qmd
+        text: Articles
+      - href: posts/blog.qmd
+        text: Blog
+
+
+  sidebar:
+    - id: articles
+      title: "Articles"
+      style: "docked"
+      background: light
+      collapse-level: 2
+      contents:
+       - section: "Articles"
+         href: articles/index.qmd
+         contents:
+         - text: "Chapter 4 Sum and Range"
+           href:  articles/article_01.qmd
+         - text: "Chapter 5 Everything"
+           href:  articles/article_02.qmd
+         - text: "Enhancement Description"
+           href:  articles/article_03.qmd
+       - section: "Posts"
+           href: posts/index.qmd
+           contents: "posts/*/*.qmd"
+           sort:
+             -"date desc"
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true
+
+execute:
+  freeze: true
+
