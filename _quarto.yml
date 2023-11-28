@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Isaac Young's Warmup"
+  title: "Isaac Young's Website"
   site-path: "/personal-isaac-young/"
   reader-mode: true
   repo-url: https://github.com/isaacy02/personal-isaac-young
@@ -15,32 +15,40 @@ website:
       - href: about.qmd
         text: About
       - href: articles/index.qmd
-        text: Articles
-      - href: posts/blog.qmd
+        text: Articles 
+      - href: posts/index.qmd
         text: Blog
 
-
   sidebar:
-    - id: articles
-      title: "Articles"
+
+    - id: none
       style: "docked"
       background: light
       collapse-level: 2
       contents:
-       - section: "Articles"
-         href: articles/index.qmd
-         contents:
-         - text: "Chapter 4 Sum and Range"
-           href:  articles/article_01.qmd
-         - text: "Chapter 5 Everything"
-           href:  articles/article_02.qmd
-         - text: "Enhancement Description"
-           href:  articles/article_03.qmd
-       - section: "Posts"
-           href: posts/index.qmd
-           contents: "posts/*/*.qmd"
-           sort:
-             -"date desc"
+        - section: "Articles"
+          href: articles/index.qmd
+          contents:
+          - text: "Chapter 4 Sum and Range"
+            href:  articles/article_01.qmd
+          - text: "Chapter 5 Everything"
+            href:  articles/article_02.qmd
+          - text: "Enhancement Description"
+            href:  articles/article_03.qmd
+        - section: "Posts"
+          href: posts/index.qmd
+          contents: 
+          - text: "1"
+            href:  posts/Blog 1/index.qmd
+          - text: "2"
+            href:  posts/Blog 2/index.qmd
+          - text: "Gtown Football"
+            href:  posts/Blog 3/index.qmd
+          - text: "Lightsaber Colors"
+            href:  posts/Blog 4/index.qmd
+          - text: "Super Bowl Winner"
+            href:  posts/Blog 5/index.qmd
+
 format:
   html:
     theme: flatly
@@ -49,4 +57,3 @@ format:
 
 execute:
   freeze: true
-

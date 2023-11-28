@@ -1,12 +1,69 @@
 ---
-title: "Enhancement"
+title: "Theming Enhancement"
 ---
 
 ## Introduction to Problem
 
+For my website enhancement I decided to customize the theming of my website to make it more visually pleasing and to look more than just a generic website.  I did this through changing things like the colors, fonts, sizes and hovering options.
+
 ## Problem
 
+For this problem I had to find some things that I wanted to change about the website to customize it.  This was difficult and I had to research how to do these different changes for different parts of my website. To do this I needed to make my code in styles.css for it to correctley implement the style changes I was trying to make. For my theming I wanted to go with more of a tan and brown monochromatic look. I did not want to have a lot of bright colors I would rather it be like this. I also changed the font to Times New Roman because I felt that it was a visually pleasing font. I also wanted when I hovered over a link or place to click for it to enlarge and underline so that the reader knows it is a place to click. I also wanted to change the font colors to go opposite of the background color that they were in so that it looks nice. 
+
 ## Explaining the code
+
+```css
+.navbar {
+    background-color: rgb(112, 68, 18); 
+  }
+```
+Here I started with targeting the top navagation bar using .navbar to change the background color to the color brown that I wanted. To find this color it allowed me to click on the color box and change the color to where I wanted on a color wheel like option. I did not like the original brown so I wanted to change it to more of a dark brown. I then used this exact color for the rest of the browns on the site so that they would all match.
+
+```css
+.navbar a:hover {
+    text-decoration: underline;
+  }
+```
+This code I used to then change what happens when you hover over the words at the top because you can click on them. I wanted it to underline the word as I hover over it to make it more noticeable. Later on I had it also enlarge it but I did that to the whole site not just the navbar.
+
+```css
+a {
+    color: rgb(112, 68, 18);
+    font-family: 'Times New Roman', Times, serif;
+  }
+  a:hover {
+    text-decoration: underline;
+    font-size: 150%;
+  }
+```
+
+Here I wanted to mess with and change around the text throughout the sight. With the sidebar white and the body background tan I went ahead and made all of the text the same brown color to match the top. I then wanted to change the font for the whole site to something that I liked better. For this, I changer the font to Times New Roman, a font that looks visually pleasing and more professional. Next I wanted to affect what happens to the clickable text across the whole site. For this I used text-decoration to tell it to underline whenever I hover over the text. I like this because it helps to bring attention to it when you hover over it. Then I though I wanted to bring even more attention to it by making the text enlarge whenever I hover over it. To do this I used font size inside of a:hover to let the site know to enlarge 50% whenever you hover over the clickable link. I think this helps to bring attention to it letting the reader know it is different than the other text on the site. This was for the links and the text in the body part of the website but the hover enlargement applied to the whole site.
+
+```css
+.sidebar a:hover {
+    text-decoration: underline;
+    color: tan;
+  }
+```
+
+Now I wanted to focus on what happens when you hover over the text on the sidebar. For this I started with .sidebar to let it know that is what I am focusing on then a:hover to let it know I am focusing on the hoverable text in that area. Then I used text-decoration to make it underline the text when you go over it. I also wanted it to change to the other main color on the site whenever I hover over it using color just because the background is white so I can do that.
+
+```css
+.sidebar a{
+    color: rgb(112, 68, 18)
+}
+```
+
+Again on the sidebar I wanted to change the color of the text to what the text was in the body of the site. For this, I again used the .sidebar a to target the text on the side before hovering over it. I then changed it to the brown color to match the other text.
+
+```css
+body {
+    background-color: tan;
+    color: rgb(112, 68, 18);
+  }
+```
+
+
 
 ## Examples
 

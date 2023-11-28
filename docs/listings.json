@@ -1,6 +1,20 @@
 [
   {
-    "listing": "/blog.html",
-    "items": []
+    "listing": "/articles/index.html",
+    "items": [
+      "/articles/article_01.html",
+      "/articles/article_02.html",
+      "/articles/article_03.html"
+    ]
+  },
+  {
+    "listing": "/posts/index.html",
+    "items": [
+      "/posts/Blog 1/index.html",
+      "/posts/Blog 2/index.html",
+      "/posts/Blog 5/index.html",
+      "/posts/Blog 3/index.html",
+      "/posts/Blog 4/index.html"
+    ]
   }
 ]
