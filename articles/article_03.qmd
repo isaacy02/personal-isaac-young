@@ -60,11 +60,43 @@ Again on the sidebar I wanted to change the color of the text to what the text w
 body {
     background-color: tan;
     color: rgb(112, 68, 18);
+    font-family: 'Times New Roman', Times, serif;
   }
 ```
-
-
-
-## Examples
+In my last set of changes I am trying to change the stlyes and theming in the body area of my website. I first target body, then I change my background color to tan using background-color to complement the top that is brown. I then changed the color of the font in the body using just color and typing the brown that I wanted. I also wanted to change the font in the body to match the font everywhere else and I did this by using font-family then picked the times new roman option I wanted.
 
 ## Full Code
+```{.css filename="styles.css"}
+.navbar {
+    background-color: rgb(112, 68, 18); 
+  }
+
+.navbar a:hover {
+    text-decoration: underline;
+    color: tan;
+  }
+a {
+    color: rgb(112, 68, 18);
+    font-family: 'Times New Roman', Times, serif;
+  }
+  a:hover {
+    text-decoration: underline;
+    font-size: 150%;
+  }
+  
+
+.sidebar a:hover {
+    text-decoration: underline;
+    color: tan;
+  }
+
+.sidebar a{
+    color: rgb(112, 68, 18)
+}
+
+body {
+    background-color: tan;
+    color: rgb(112, 68, 18);
+    font-family: 'Times New Roman', Times, serif;
+  }
+```

@@ -38,9 +38,9 @@ website:
         - section: "Posts"
           href: posts/index.qmd
           contents: 
-          - text: "1"
+          - text: "Quarto Image Add"
             href:  posts/Blog 1/index.qmd
-          - text: "2"
+          - text: "CSC in the NFL"
             href:  posts/Blog 2/index.qmd
           - text: "Gtown Football"
             href:  posts/Blog 3/index.qmd

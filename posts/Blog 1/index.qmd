@@ -1,9 +1,38 @@
 ---
-title: ""
-description: ""
+title: "How To Add an Image to Quarto"
+description: "Learning to add images to my personal website"
 author:
   - name: Isaac Young
 date: "2023-11-23"
-categories: []
-image: banner.jpg
+categories: [substantive, coding]
+image: download.jpg
 ---
+
+## Introduction 
+
+Through making my website I learned to put images into my website in different places.
+
+## How
+
+It does not take a lot once you learn how to do it. To insert an image into the website you need to go to the .qmd file for the page that you are wanting to add an image on. Then from there you need to add the code to add an image and customize the way you want it to present. An then add the link to the image file.
+
+## Example
+
+```js
+<style>
+.center 
+{
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 50% !important;
+}
+img
+{
+    border: 1px solid #000000 !important;
+}
+</style>
+
+<img src="/images/Issac_Young.jpg" class="center" style="border-radius: 50%;">
+```
+We use .center to put the picture in the center horizontally on the page. Using display line we set the display to block to take up the full width avaliable. The next two lines we use to set the margins to auto to help center the picture in the frame. The next line adds a solid small border around the picture. Then the img lines just add the correct file and link for the picture you want.

@@ -1,9 +1,19 @@
 ---
-title: ""
-description: ""
+title: "CSC in the NFL"
+description: "Some of the cool ways coding and computer science is involved with the NFL"
 author:
   - name: Isaac Young
 date: "2023-11-21"
-categories: []
-image: banner.jpg
+categories: [substantive, sports]
+image: download.jpg
 ---
+
+## Introduction 
+
+For me, it is cool to see a connection in two of the things that I am interested in and do a lot.  It is cool to see all of the ways that computer science is involved in the NFL and other sports in so many levels. Maybe one day I will be able to combine the two in a job or career. 
+
+## Different ways
+
+Some of the ways that the two are intertwined starts with a big one that is stats and data analytics. Player stats and performance is tracked and stored through data and computers that use and track these things. The stats are tracked very accurately and are a very important part of the NFL. Another way is that teams could use computer science inside the gameplans to analyze the stats of games, differet opponents scouting through seeing patterns and calculating percentages. 
+
+Another big way that computer science can be used in the NFL is player and draft scouting. Teams can use many variations of data driven insight to evaluate a player and what their projected potential is and could be. Using coding they could predict based on history and stats what kind of player someone could become because of past information. It could also see the stats and algorithms of the other people on the team and how that players stats would fit in with them with things like simulations.
