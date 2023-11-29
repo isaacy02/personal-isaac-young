@@ -70,13 +70,6 @@
     "text": "Explaining the code\n.navbar {\n    background-color: rgb(112, 68, 18); \n  }\nHere I started with targeting the top navagation bar using .navbar to change the background color to the color brown that I wanted. To find this color it allowed me to click on the color box and change the color to where I wanted on a color wheel like option. I did not like the original brown so I wanted to change it to more of a dark brown. I then used this exact color for the rest of the browns on the site so that they would all match.\n.navbar a:hover {\n    text-decoration: underline;\n  }\nThis code I used to then change what happens when you hover over the words at the top because you can click on them. I wanted it to underline the word as I hover over it to make it more noticeable. Later on I had it also enlarge it but I did that to the whole site not just the navbar.\na {\n    color: rgb(112, 68, 18);\n    font-family: 'Times New Roman', Times, serif;\n  }\n  a:hover {\n    text-decoration: underline;\n    font-size: 150%;\n  }\nHere I wanted to mess with and change around the text throughout the sight. With the sidebar white and the body background tan I went ahead and made all of the text the same brown color to match the top. I then wanted to change the font for the whole site to something that I liked better. For this, I changer the font to Times New Roman, a font that looks visually pleasing and more professional. Next I wanted to affect what happens to the clickable text across the whole site. For this I used text-decoration to tell it to underline whenever I hover over the text. I like this because it helps to bring attention to it when you hover over it. Then I though I wanted to bring even more attention to it by making the text enlarge whenever I hover over it. To do this I used font size inside of a:hover to let the site know to enlarge 50% whenever you hover over the clickable link. I think this helps to bring attention to it letting the reader know it is different than the other text on the site. This was for the links and the text in the body part of the website but the hover enlargement applied to the whole site.\n.sidebar a:hover {\n    text-decoration: underline;\n    color: tan;\n  }\nNow I wanted to focus on what happens when you hover over the text on the sidebar. For this I started with .sidebar to let it know that is what I am focusing on then a:hover to let it know I am focusing on the hoverable text in that area. Then I used text-decoration to make it underline the text when you go over it. I also wanted it to change to the other main color on the site whenever I hover over it using color just because the background is white so I can do that.\n.sidebar a{\n    color: rgb(112, 68, 18)\n}\nAgain on the sidebar I wanted to change the color of the text to what the text was in the body of the site. For this, I again used the .sidebar a to target the text on the side before hovering over it. I then changed it to the brown color to match the other text.\nbody {\n    background-color: tan;\n    color: rgb(112, 68, 18);\n    font-family: 'Times New Roman', Times, serif;\n  }\nIn my last set of changes I am trying to change the stlyes and theming in the body area of my website. I first target body, then I change my background color to tan using background-color to complement the top that is brown. I then changed the color of the font in the body using just color and typing the brown that I wanted. I also wanted to change the font in the body to match the font everywhere else and I did this by using font-family then picked the times new roman option I wanted."
   },
   {
-    "objectID": "articles/article_03.html#examples",
-    "href": "articles/article_03.html#examples",
-    "title": "Theming Enhancement",
-    "section": "Examples",
-    "text": "Examples"
-  },
-  {
     "objectID": "articles/article_03.html#full-code",
     "href": "articles/article_03.html#full-code",
     "title": "Theming Enhancement",
@@ -124,6 +117,27 @@
     "title": "Isaac’s Posts",
     "section": "",
     "text": "How To Add an Image to Quarto\n\n\n\n\n\n\n\nsubstantive\n\n\ncoding\n\n\n\n\nLearning to add images to my personal website\n\n\n\n\n\n\nNov 23, 2023\n\n\nIsaac Young\n\n\n\n\n\n\n  \n\n\n\n\nCSC in the NFL\n\n\n\n\n\n\n\nsubstantive\n\n\nsports\n\n\n\n\nSome of the cool ways coding and computer science is involved with the NFL\n\n\n\n\n\n\nNov 21, 2023\n\n\nIsaac Young\n\n\n\n\n\n\n  \n\n\n\n\nWho is Gonna Win the Super Bowl\n\n\n\n\n\n\n\nsports\n\n\n\n\nWith the Eagles MNF win they have the top spot in the league.\n\n\n\n\n\n\nNov 20, 2023\n\n\nIsaac Young\n\n\n\n\n\n\n  \n\n\n\n\nTigers Win Mid South For First Time In 7 Years\n\n\n\n\n\n\n\nsports\n\n\nGeorgetown\n\n\n\n\nThe Georgetown Tigers have won the MSC and are hosting a home playoff game as the #4 seed to continue their great season.\n\n\n\n\n\n\nNov 15, 2023\n\n\nIsaac Young\n\n\n\n\n\n\n  \n\n\n\n\nWhat Color Lightsaber Is The Best\n\n\n\n\n\n\n\nStar Wars\n\n\n\n\nThere is much debate in the Star Wars community on which lightsaber color is truly the best\n\n\n\n\n\n\nSep 24, 2023\n\n\nIsaac Young\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/Blog 2/index.html",
+    "href": "posts/Blog 2/index.html",
+    "title": "CSC in the NFL",
+    "section": "",
+    "text": "For me, it is cool to see a connection in two of the things that I am interested in and do a lot. It is cool to see all of the ways that computer science is involved in the NFL and other sports in so many levels. Maybe one day I will be able to combine the two in a job or career."
+  },
+  {
+    "objectID": "posts/Blog 2/index.html#introduction",
+    "href": "posts/Blog 2/index.html#introduction",
+    "title": "CSC in the NFL",
+    "section": "",
+    "text": "For me, it is cool to see a connection in two of the things that I am interested in and do a lot. It is cool to see all of the ways that computer science is involved in the NFL and other sports in so many levels. Maybe one day I will be able to combine the two in a job or career."
+  },
+  {
+    "objectID": "posts/Blog 2/index.html#different-ways",
+    "href": "posts/Blog 2/index.html#different-ways",
+    "title": "CSC in the NFL",
+    "section": "Different ways",
+    "text": "Different ways\nSome of the ways that the two are intertwined starts with a big one that is stats and data analytics. Player stats and performance is tracked and stored through data and computers that use and track these things. The stats are tracked very accurately and are a very important part of the NFL. Another way is that teams could use computer science inside the gameplans to analyze the stats of games, differet opponents scouting through seeing patterns and calculating percentages.\nAnother big way that computer science can be used in the NFL is player and draft scouting. Teams can use many variations of data driven insight to evaluate a player and what their projected potential is and could be. Using coding they could predict based on history and stats what kind of player someone could become because of past information. It could also see the stats and algorithms of the other people on the team and how that players stats would fit in with them with things like simulations."
   },
   {
     "objectID": "posts/Blog 5/index.html",
@@ -180,6 +194,34 @@
     "title": "What Color Lightsaber Is The Best",
     "section": "Different Color meanings",
     "text": "Different Color meanings\nDonec lectus lacus, eleifend vitae mollis eu, laoreet a mi. Maecenas sit amet auctor tellus, vitae accumsan turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce eleifend pharetra commodo. Fusce tempor velit dolor, ac rutrum enim consectetur sed. Sed eget metus eget odio euismod convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam interdum, mauris et imperdiet pellentesque, turpis quam blandit elit, sed ornare nulla lectus a odio. Maecenas eget justo ipsum. Phasellus libero dui, congue eu venenatis et, ullamcorper in odio. Curabitur iaculis lectus est, ac placerat est aliquam blandit. Cras sed elit ac ipsum convallis cursus ut nec tellus. Vestibulum in ipsum ante. Aenean condimentum quam in suscipit pulvinar. Suspendisse auctor id erat non placerat. Nam egestas purus ultrices dolor molestie scelerisque.\nAenean aliquet augue a dui porta, ut condimentum diam blandit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas faucibus finibus odio ut posuere. Aenean est lorem, lacinia id turpis a, congue bibendum erat. Sed ac nibh lacinia, rutrum dui sed, efficitur tortor. Donec imperdiet, arcu commodo ultricies sagittis, sapien metus auctor sapien, quis venenatis mauris felis non mi. Integer sodales nulla in mi aliquet pretium. Integer ut varius mi. Ut lacinia quis risus vitae suscipit. Maecenas cursus dolor id dolor pretium, sed vestibulum erat accumsan. Mauris purus erat, ultricies nec auctor vel, semper id nulla.\nDonec at est non lectus imperdiet viverra. Vestibulum enim nisi, porttitor sit amet massa ac, lacinia sodales mauris. Aliquam vestibulum sapien ac arcu pellentesque luctus. Sed aliquet efficitur nisl, id ornare ipsum tempus non. In maximus odio vitae dui semper facilisis. Aliquam erat volutpat. Etiam vel justo pulvinar, lacinia magna eget, pharetra dolor. Nunc porta erat in hendrerit suscipit. Fusce felis tellus, rutrum ac dolor nec, iaculis egestas ante. Praesent nisl libero, ultrices ac est ut, consectetur congue ex. Aenean venenatis enim vitae augue tempor vestibulum. Fusce in nulla dolor. Suspendisse fringilla magna et quam consectetur, sed pellentesque tortor bibendum.\nNunc at viverra lorem, sit amet pulvinar ligula. Sed iaculis odio at commodo consectetur. Proin posuere diam in dapibus pellentesque. Cras vitae egestas ligula. Phasellus tempus porta diam id molestie. Quisque a luctus velit. Suspendisse pellentesque quam a leo auctor, vel tincidunt massa dapibus. Vivamus porttitor, ipsum a congue imperdiet, neque urna finibus eros, in tristique lacus massa sit amet odio. Vestibulum et laoreet purus, pulvinar vulputate mi. Pellentesque ultrices efficitur mauris nec ultricies. Quisque efficitur magna orci, et maximus justo malesuada at. Nulla hendrerit dui et ligula sagittis efficitur. Ut erat dolor, rutrum ac ex eget, malesuada molestie turpis.\nAenean eget vehicula mi, in rutrum elit. Mauris pulvinar est non sagittis tempor. Sed quis finibus nisi. Pellentesque commodo, nibh at sagittis vulputate, tortor massa iaculis mi, quis sodales risus lorem vel enim. Nunc faucibus ante ut dolor eleifend, tempor efficitur lacus aliquet. Praesent nec sapien et lacus fermentum ultricies. Aenean ut pharetra lectus. Sed et lacus a nisl gravida cursus."
+  },
+  {
+    "objectID": "posts/Blog 1/index.html",
+    "href": "posts/Blog 1/index.html",
+    "title": "How To Add an Image to Quarto",
+    "section": "",
+    "text": "Through making my website I learned to put images into my website in different places."
+  },
+  {
+    "objectID": "posts/Blog 1/index.html#introduction",
+    "href": "posts/Blog 1/index.html#introduction",
+    "title": "How To Add an Image to Quarto",
+    "section": "",
+    "text": "Through making my website I learned to put images into my website in different places."
+  },
+  {
+    "objectID": "posts/Blog 1/index.html#how",
+    "href": "posts/Blog 1/index.html#how",
+    "title": "How To Add an Image to Quarto",
+    "section": "How",
+    "text": "How\nIt does not take a lot once you learn how to do it. To insert an image into the website you need to go to the .qmd file for the page that you are wanting to add an image on. Then from there you need to add the code to add an image and customize the way you want it to present. An then add the link to the image file."
+  },
+  {
+    "objectID": "posts/Blog 1/index.html#example",
+    "href": "posts/Blog 1/index.html#example",
+    "title": "How To Add an Image to Quarto",
+    "section": "Example",
+    "text": "Example\n&lt;style&gt;\n.center \n{\n  display: block !important;\n  margin-left: auto !important;\n  margin-right: auto !important;\n  width: 50% !important;\n}\nimg\n{\n    border: 1px solid #000000 !important;\n}\n&lt;/style&gt;\n\n&lt;img src=\"/images/Issac_Young.jpg\" class=\"center\" style=\"border-radius: 50%;\"&gt;\nWe use .center to put the picture in the center horizontally on the page. Using display line we set the display to block to take up the full width avaliable. The next two lines we use to set the margins to auto to help center the picture in the frame. The next line adds a solid small border around the picture. Then the img lines just add the correct file and link for the picture you want."
   },
   {
     "objectID": "articles/article_01.html",
@@ -271,54 +313,5 @@
     "title": "Welcome!",
     "section": "",
     "text": "This is my website. I have made it for my website warmup project in class.\nYou can read a bit about me here.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
-  },
-  {
-    "objectID": "posts/Blog 1/index.html",
-    "href": "posts/Blog 1/index.html",
-    "title": "How To Add an Image to Quarto",
-    "section": "",
-    "text": "Through making my website I learned to put images into my website in different places."
-  },
-  {
-    "objectID": "posts/Blog 1/index.html#introduction",
-    "href": "posts/Blog 1/index.html#introduction",
-    "title": "How To Add an Image to Quarto",
-    "section": "",
-    "text": "Through making my website I learned to put images into my website in different places."
-  },
-  {
-    "objectID": "posts/Blog 1/index.html#how",
-    "href": "posts/Blog 1/index.html#how",
-    "title": "How To Add an Image to Quarto",
-    "section": "How",
-    "text": "How\nIt does not take a lot once you learn how to do it. To insert an image into the website you need to go to the .qmd file for the page that you are wanting to add an image on. Then from there you need to add the code to add an image and customize the way you want it to present. An then add the link to the image file."
-  },
-  {
-    "objectID": "posts/Blog 1/index.html#example",
-    "href": "posts/Blog 1/index.html#example",
-    "title": "How To Add an Image to Quarto",
-    "section": "Example",
-    "text": "Example\n&lt;style&gt;\n.center \n{\n  display: block !important;\n  margin-left: auto !important;\n  margin-right: auto !important;\n  width: 50% !important;\n}\nimg\n{\n    border: 1px solid #000000 !important;\n}\n&lt;/style&gt;\n\n&lt;img src=\"/images/Issac_Young.jpg\" class=\"center\" style=\"border-radius: 50%;\"&gt;\nWe use .center to put the picture in the center horizontally on the page. Using display line we set the display to block to take up the full width avaliable. The next two lines we use to set the margins to auto to help center the picture in the frame. The next line adds a solid small border around the picture. Then the img lines just add the correct file and link for the picture you want."
-  },
-  {
-    "objectID": "posts/Blog 2/index.html",
-    "href": "posts/Blog 2/index.html",
-    "title": "CSC in the NFL",
-    "section": "",
-    "text": "For me, it is cool to see a connection in two of the things that I am interested in and do a lot. It is cool to see all of the ways that computer science is involved in the NFL and other sports in so many levels. Maybe one day I will be able to combine the two in a job or career."
-  },
-  {
-    "objectID": "posts/Blog 2/index.html#introduction",
-    "href": "posts/Blog 2/index.html#introduction",
-    "title": "CSC in the NFL",
-    "section": "",
-    "text": "For me, it is cool to see a connection in two of the things that I am interested in and do a lot. It is cool to see all of the ways that computer science is involved in the NFL and other sports in so many levels. Maybe one day I will be able to combine the two in a job or career."
-  },
-  {
-    "objectID": "posts/Blog 2/index.html#different-ways",
-    "href": "posts/Blog 2/index.html#different-ways",
-    "title": "CSC in the NFL",
-    "section": "Different ways",
-    "text": "Different ways\nSome of the ways that the two are intertwined starts with a big one that is stats and data analytics. Player stats and performance is tracked and stored through data and computers that use and track these things. The stats are tracked very accurately and are a very important part of the NFL. Another way is that teams could use computer science inside the gameplans to analyze the stats of games, differet opponents scouting through seeing patterns and calculating percentages.\nAnother big way that computer science can be used in the NFL is player and draft scouting. Teams can use many variations of data driven insight to evaluate a player and what their projected potential is and could be. Using coding they could predict based on history and stats what kind of player someone could become because of past information. It could also see the stats and algorithms of the other people on the team and how that players stats would fit in with them with things like simulations."
   }
 ]
